@@ -1,0 +1,137 @@
+body {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(blue, #EFB0C9, yellow, red);
+    color: #ffffff;
+}
+
+.main1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 200px;
+    border-radius: 100%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+    animation: avatar 2s infinite;
+}
+
+@keyframes avatar {
+    0%    {border-color:  #EFB0C9;}
+    10%   {border-color:  red;}
+    20%   {border-color:  blue;}
+    30%   {border-color:  skyblue;}
+    40%   {border-color:  navy;}
+    50%   {border-color:  lime;}
+    60%   {border-color:  yellow;}
+    70%   {border-color:  green;}
+    80%   {border-color:  purple;}
+    90%   {border-color:  palevioletred;}
+    100%  {border-color:  #EFB0C9;}
+}
+
+@keyframes age {
+    0%    {box-shadow: 0px 0px 10px rgb(56, 5, 41);}
+    10%   {box-shadow: 0px 0px 20px rgb(180, 8, 129);}
+    20%   {box-shadow: 0px 0px 30px rgb(56, 5, 41);}
+    30%   {box-shadow: 0px 0px 40px rgb(180, 8, 129);}
+    40%   {box-shadow: 0px 0px 50px rgb(56, 5, 41);}
+    50%   {box-shadow: 0px 0px 60px rgb(180, 8, 129);}
+    60%   {box-shadow: 0px 0px 50px rgb(56, 5, 41);}
+    70%   {box-shadow: 0px 0px 40px rgb(180, 8, 129);}
+    80%   {box-shadow: 0px 0px 30px rgb(56, 5, 41);}
+    90%   {box-shadow: 0px 0px 20px rgb(180, 8, 129);}
+    100%  {box-shadow: 0px 0px 10px rgb(56, 5, 41);}
+}
+
+#bday-age {
+    background: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    animation: age 4s infinite;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+    animation: age 4s infinite;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+
+.gift-img {
+    min-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/bday.webp");
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/cake.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+#gift-img-genius:hover {
+    background-image: url("images/bday_2.jpg");
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/bday_4.png");
+}
+
+
+#footer {
+    font-style: italic;
+    font-weight: bold;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+

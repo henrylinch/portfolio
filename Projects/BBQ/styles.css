@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    color: #03071e;
+    background-color: #f8f9fa;
+}
+
+.main {
+    margin: 1em;
+    border: 2px #eee solid;
+    border-style: groove;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.image-div {
+    background-image: url('https://images.unsplash.com/photo-1614119068601-483274e9dcb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8QkJRfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=700&q=60');
+    background-position: center bottom;
+    box-sizing: border-box;
+    background-size: cover;
+    text-shadow: 0px 0px 10px #000;
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 10px;
+}
+
+.hero h1 {
+    color: #eee;
+    font-size: 1.5em;
+    word-spacing: 2px;
+    letter-spacing: 4px;
+}
+
+.hero h2 {
+    font-size: 1rem;
+    color: orangered;
+    text-shadow: 0px 0px 2px #eee;
+    letter-spacing: 2px;
+}
+
+.content {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content p {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 900;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.form {
+    width: 300px;
+}
+
+.text p:nth-child(even) {
+    font-size: 1rem;
+    font-weight: bold;
+    color: orangered;
+}
+
+
+input {
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: #666 1px solid;
+    padding: 8px;
+    border-style: outset;
+    text-align: center;
+}
+
+.btn {
+    color: #eee;
+    background-color: orangered;
+    border: none;
+    outline: none;
+    padding: .7em 1.5em;
+    width: 318.5px;
+    border-radius: 4px;
+    font-weight: 600;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.btn:hover {
+    scale: 1.1;
+    background-color: #fefefe;
+    color: orangered;
+    border: orangered 1px solid;
+}
+
+.form p {
+    font-weight: bold;
+    font-size: .6rem;
+    color: #666;
+}
+
+@media(max-width: 683px){
+    body {
+        margin-bottom: 2em;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .image-div {
+        width: 100%;
+        margin-bottom: 3em;
+    }
+
+    .content {
+        width: unset;
+    }
+}
+
+
+
+
+
+/*Toggle modes*/
+
+.body-mode {
+    color: #f8f9fa;
+    background-color: #03071e;
+  }
+  
+  
+  
+  /*HEADER SECTION STYLES*/
+  
+  .mode {
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+  
+    background-color: #03071e;
+    
+    border-block-end-style: outset;
+    border-block-end-color: #e85d04;
+    box-shadow: 0px 0px 10px #e85d04;
+  }
+  
+  .heading1 {
+    width: 100%;
+    position: fixed;
+    top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .mode-btn {
+    width: 30%;
+  }
+  
+  .address {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .btn-1::before {
+    content: 'Dark mode';
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    box-shadow: 0px 0px 10px #03071e;
+    color: #03071e;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .btn-1_2::before {
+    content: 'Dark mode 🗸';
+    background-color: #03071e;
+    box-shadow: 0px 0px 10px white;
+    color: #f8f9fa;
+  }
+  
+  .fa-brands {
+    color: orangered;
+    font-size: 18px;
+    text-shadow: 0px 0px 2px #03071e;
+  }
+  
+  .fa-brands:hover {
+    scale: 1.5;
+  }
+  
+  .address a {
+    margin-right: 20px;
+  }
+  
+  .contact p {
+    font-family: Verdana, Geneva, Tahoma, serif;
+    font-size: 10px;
+    padding: 0px;
+    margin: 1px 10px;
+    color: #f8f9fa;
+  }
+  
+  /**     
+  STYLES FOR THE HEADING 2 SECTION  
+  LOGO, NAME, ABOUT-ME, AND WEBSITE NAVIGATION LINKS 
+  **/
+  
+  .heading2 {
+    width: 90%;
+    margin: auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .head1 {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  #chart-simple {
+    color: orangered;
+    font-size: 5vw;
+  }
+  
+  .my-info {
+    padding: .5vw;
+  }
+  
+  #name {
+    font-size: 1.5vw;
+    color: #f8f9fa;
+    margin-bottom: 0;
+  }
+  
+  #about-me {
+    font-size: 1vw;
+    color: #f8f9fa;
+    margin-top: 0;
+  }
+  
+  .navigate {
+    text-align: center;
+  }
+  
+  .nav-link {
+    display: inline;
+  }
+  
+  .navigate a {
+    font-size: 1.5vw;
+    font-weight: 500;
+    color: #f8f9fa;
+    text-decoration: none;
+    padding: 1vw .5vw;
+    transition: .3s;
+  }
+  
+  .navigate a:hover {
+    border-bottom: solid .3vw orangered;
+    border-radius: .1vw;
+    opacity: .7;
+  }
+  
+  
+  
+  
+  
+  .fa-whatsapp {
+    color: white;
+    position: fixed;
+    top: 87vh;
+    left: 90vw;
+    text-shadow: 0px 0px 10px blue;
+    font-size: 48px;
+  }
+  
+  .fa-whatsapp:hover {
+    scale: 1.2;
+  }
+  
+
+
+  /*Footer*/
+.last {
+    width: 100%;
+    background-color: #6a040f;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .footer {
+    width: 100%;
+    color: #f8f9fa;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 600;
+  }
+  
+  footer {
+    width: 30%;
+    text-align: left;
+  }
+
+  footer li {
+    list-style: none;
+    margin-bottom: 6px;
+  }
+  
+  .bd-rght {
+    padding: 5px;
+    border-right: solid 2px #f48c06;
+  }
+  
+  .plus-margin {
+    margin-top: 10px;
+  }
+  
+  .last-social {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #f8f9fa;
+    font-weight: bold;
+  }
+  
+  .footer a:hover {
+    color: #03071e;
+  }
+  
+  .footer h3 {
+    color: #f48c06;
+    text-shadow: 0px 0px 5px #03071e;
+  }
+  
+  .dev {
+    width: 80%;
+    margin: 50px auto 10px auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer h4, li, p {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+
+  .footer h6 {
+    margin-bottom: 6px;
+  }
+
+

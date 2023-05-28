@@ -1,0 +1,183 @@
+body {
+    background-color: #666;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 98%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    background-image: url("../images/43.jpg");
+    background-position: bottom left;
+    word-spacing: 6px;
+}
+
+#logo {
+    width: 30%;
+    height: 250px;
+    float: left;
+    margin: 20px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 50px;
+    background-color: skyblue;
+}
+
+#name {
+    font-size: 70px;
+    font-family: cursive;
+
+}
+
+#name1 {
+    color: #fff
+}
+
+#name2 {
+    color: yellow;
+}
+
+#name3 {
+    color: red;
+}
+
+#address1 {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: .5em;
+}
+
+#motto {
+    color: navy;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.cont-2 ul {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    background-image: url(../images/2.jpg);
+    background-position: center bottom;
+    min-height: 100px;
+    word-spacing: 150px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+
+.cont-2 li {
+    display: inline;
+    font-size: 20px;
+    
+}
+
+.cont-2 a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;   
+}
+
+.cont-2 a:hover {
+    color: navy;
+    background-color: #fff;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#welcome {
+    padding: 20px;
+    border-style: groove;
+    margin: 5px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+
+legend {
+    color: rgb(12, 12, 170);
+    font-size: 30px;
+}
+
+img {
+    width: 40%;
+    float: left;
+    max-height: 400px;
+    margin-right: 20px;
+}
+
+.clubs {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sec-1 {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    word-spacing: .5em;
+}
+
+#per {
+    width: 29%;
+    float: left;
+    border-style: groove;
+    margin-left: 1.2%;
+    min-height: 270px;
+    max-height: 270px;
+    padding: 1%;
+    line-height: 1.5em;
+}
+
+.values {
+    margin-right: 0;
+}
+
+.mission {
+    overflow: auto;
+}
+
+#field {
+    line-height: 1.5em;
+}
+
+#add {
+    line-height: 1.5em;
+    word-spacing: .5em;
+}
+
+#pat1 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    float: left;
+}
+
+#par1 {
+    color: rgb(12, 12, 170);
+    font-size: 30px;
+}
+
+.cont-3 {
+    text-align: center;
+    border-style: ridge;
+    margin-top: 40px;
+} 
+

@@ -1,0 +1,68 @@
+.grid-container {
+    margin: 50px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: auto auto;
+}
+
+@media(max-width: 900px){
+    .grid-container {
+        grid-template-columns: auto;
+    }
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+}
+
+.grid-image {
+    width: 100%;
+    height: 100%;
+}
+
+.grid-desc {
+    text-align: left;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.grid-desc-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-link {
+    font-size: 14px;
+    text-decoration: none;
+    background-color: #FF006B;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.project-link:hover {
+    border: solid 2px #FF006B;
+    color: #FF006B;
+    background-color: #fff;
+}
+
+.project-lang {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.project-lang .fa-brands {
+    color: #FF006B;
+}

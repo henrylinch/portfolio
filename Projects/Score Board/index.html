@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score-board</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="all-content">
+        <div class="main">
+            <div class="main1">
+                <h1 id="title">HOME</h1>
+                <h2 class="teams" id="team1"></h2>
+                <div class="main11">
+                    <p class="scores" id="text1">0</p>
+                </div>
+                <div class="main12">
+                    <div>
+                        <button id="btn" onclick="add1()">+1</button>
+                    </div>
+                    <div>
+                        <button id="btn" onclick="add2()">+2</button>
+                    </div>
+                    <div>
+                        <button id="btn" onclick="add3()">+3</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="part">
+                <div class="part_1"></div>
+                <div class="part_1"></div>
+            </div>
+
+            <div class="main2">
+                <h1 id="title">GUESTS</h1>
+                <h2 class="teams" id="team2"></h2>
+                <div class="main11">
+                    <p  class="scores" id="text2">0</p>
+                </div>
+                <div class="main12">
+                    <div>
+                        <button id="btn" onclick="add21()">+1</button>
+                    </div>
+                    <div>
+                        <button id="btn" onclick="add22()">+2</button>
+                    </div>
+                    <div>
+                        <button id="btn" onclick="add23()">+3</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main3">
+            <button id="last-btn" onclick="reset_score()">RESET SCORE</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

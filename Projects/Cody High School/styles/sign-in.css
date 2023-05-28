@@ -1,0 +1,71 @@
+body {
+    background-color: skyblue;
+    text-align: center;
+}
+
+#logo {
+    width: 40%;
+    height: 500px;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.first {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: ridge;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    font-weight: bold;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
+
+#signup {
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 24px;
+    color: navy;
+}
+
+hr {
+    height: 10px;
+    background-color: rgb(192, 187, 187);
+}
+
+#pass {
+    padding-right: 50px;
+}
+
+#max {
+    width: 50%;
+}
+
+.sign-in {
+    width: 30%;
+    background-color: rgb(231, 1, 40);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius:20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.sign-in:hover  {
+    background-color: rgb(255, 34, 107);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
